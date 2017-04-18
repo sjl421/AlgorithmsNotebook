@@ -47,6 +47,10 @@
 		F2863D571E724E60004102B4 /* AlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2863D5B1E724E60004102B4 /* AlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsUITests.swift; sourceTree = "<group>"; };
 		F2863D5D1E724E60004102B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2863D691E724E6F004102B4 /* QuickSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = QuickSort.playground; sourceTree = "<group>"; };
+		F2A830921E72A0DE002FC74B /* BinarySearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinarySearch.playground; sourceTree = "<group>"; };
+		F2A830D11E752B0B002FC74B /* PackageProblem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PackageProblem.playground; sourceTree = "<group>"; };
+		F2A830D21E758E67002FC74B /* LIS.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LIS.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,10 @@
 		F2863D3A1E724E5F004102B4 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				F2A830D21E758E67002FC74B /* LIS.playground */,
+				F2A830D11E752B0B002FC74B /* PackageProblem.playground */,
+				F2863D691E724E6F004102B4 /* QuickSort.playground */,
+				F2A830921E72A0DE002FC74B /* BinarySearch.playground */,
 				F2863D3B1E724E5F004102B4 /* AppDelegate.swift */,
 				F2863D3D1E724E5F004102B4 /* ViewController.swift */,
 				F2863D3F1E724E5F004102B4 /* Main.storyboard */,
@@ -322,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -372,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -514,6 +524,7 @@
 				F2863D621E724E60004102B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2863D631E724E60004102B4 /* Build configuration list for PBXNativeTarget "AlgorithmsTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +533,7 @@
 				F2863D651E724E60004102B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2863D661E724E60004102B4 /* Build configuration list for PBXNativeTarget "AlgorithmsUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +542,7 @@
 				F2863D681E724E60004102B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
